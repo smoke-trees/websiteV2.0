@@ -1,5 +1,4 @@
 .home{
-  height: 500vh;
   padding-top: 320px;
   width: 1040px;
   margin: auto;
@@ -9,4 +8,29 @@
   font-weight: bold;
   font-size: 72px;
   line-height: 100%;
+}
+
+.services{
+  background-color: var(--dark);
+  margin-top: 200px;
+  padding: 200px 0;
+}
+
+.services >*{
+  width: 1040px;
+  margin: auto;
+}
+
+.services__header{
+  color: white;
+  font-weight: bold;
+  font-size: 72px;
+}
+
+.services__info__description{
+  width: 846px;
+  color: white;
+  margin: 48px 0 0 0;
+  font-size: 28px;
+  line-height: 130%;
 }
