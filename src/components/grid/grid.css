@@ -1,0 +1,10 @@
+.grid{
+  margin-top: 200px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 140px;
+}
+
+.grid > *:not(:first-child){
+  margin-top: 100px;
+}

@@ -1,0 +1,12 @@
+.home{
+  height: 500vh;
+  padding-top: 320px;
+  width: 1040px;
+  margin: auto;
+}
+
+.home__header{
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 100%;
+}
