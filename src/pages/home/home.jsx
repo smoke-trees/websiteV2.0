@@ -1,6 +1,7 @@
 import React from 'react'
 import './home.css'
 import Grid from '../../components/grid/grid'
+import Footer from '../../components/footer/footer'
 
 class Home extends React.Component {
   constructor(props){
@@ -21,10 +22,16 @@ class Home extends React.Component {
           </div>
           <div className='services__info'>
             <div className='services__info__description'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a.
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a.
             </div>
           </div>
         </div>
+        <div className='about'>
+          <div className='about__description'>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a. 
+          </div>
+        </div>
+        <Footer />
       </>
     )
   }
