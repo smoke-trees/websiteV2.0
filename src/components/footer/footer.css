@@ -40,6 +40,19 @@
   justify-content: space-between;
 }
 
+.footer__social__icons{
+  display: flex;
+}
+
+.footer__social__icons--style{
+  width: 30px;
+  padding: 0 0.6rem;
+}
+
+.footer__social__github{
+  padding-left: 1rem;
+}
+
 .footer__social__copy{
   font-size: 16px;
   font-weight: 600;

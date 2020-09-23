@@ -1,5 +1,8 @@
 import React from 'react'
 import './footer.css'
+import icon1 from '../../assets/instagram.svg'
+import icon2 from '../../assets/linkedin.svg'
+import icon3 from '../../assets/github1.svg'
 
 class Footer extends React.Component{
   constructor(props){
@@ -28,7 +31,17 @@ class Footer extends React.Component{
             </div>
           </div>
           <div className='footer__social'>
-            <div className='footer__social__icons'>ICONS</div>
+            <div className='footer__social__icons'>
+              <a href="https://www.instagram.com/smoketrees_digital/">
+              <img src={icon1} alt="Instagram" className="footer__social__icons--style" />
+              </a>
+              <a href="https://www.linkedin.com/company/smoke-trees/" className="footer__social__icons--style" >
+              <img src={icon2} alt="Linkedin" className="footer__social__icons--style" />
+              </a>
+              <a href="https://github.com/smoke-trees" className="footer__social__icons--style footer__social__github" >
+              <img src={icon3} alt="Github" className="footer__social__icons--style" />
+              </a>
+              </div>
             <div className='footer__social__copy'>
               SmokeTrees Digital Private Limited
             </div>
