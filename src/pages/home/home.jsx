@@ -33,10 +33,10 @@ class Home extends React.Component {
                 <li>App Development</li>
                 <li>DevOps</li>
               </ul>
-              <div className="services__info__know-more">
+              <a href="#" className="services__info__know-more">
                 Know More
                 <img src={iconright} alt="right" className="services__info__knowmore__rightarrow"/>
-              </div>
+              </a>
             </div>
           </div>
         </div>
