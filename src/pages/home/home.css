@@ -35,6 +35,44 @@
   line-height: 130%;
 }
 
+.services__info__bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: 4rem 0 0 12px;
+}
+
+.services__info__list{
+  list-style: none;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.services__info__list li:before{
+  content: "\2022";
+  color: yellow;
+  font-weight: bolder;
+  display: inline-block;
+  width: 1.5rem;
+  margin-left: -1rem;
+}
+
+
+.services__info__know-more{
+  color: white;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 6rem 0 0 0;
+  display: inline-block;
+
+}
+
+.services__info__knowmore__rightarrow{
+  width: 20px;
+  margin:0 0 0 1rem ;
+}
+
 .about{
   padding: 200px 0;
   width: 1040px;
