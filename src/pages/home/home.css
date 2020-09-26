@@ -10,6 +10,20 @@
   line-height: 100%;
 }
 
+.projects__viewmore{
+  color: black;
+  font-weight: 600;
+  font-size: 30px;
+  margin: 3rem 0 0 0;
+  display: inline-block;
+  text-decoration: none; 
+}
+
+.projects__viewmore__rightarrow{
+  width: 20px;
+  margin:0 0 0 1rem ; 
+}
+
 .services{
   background-color: var(--dark);
   margin-top: 200px;
@@ -35,7 +49,7 @@
   line-height: 130%;
 }
 
-.services__info__bottom{
+.viewmore__link{
   display: flex;
   justify-content: space-between;
   margin: 4rem 0 0 12px;

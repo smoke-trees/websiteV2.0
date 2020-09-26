@@ -3,6 +3,7 @@ import './footer.css'
 import icon1 from '../../assets/instagram.svg'
 import icon2 from '../../assets/linkedin.svg'
 import icon3 from '../../assets/github1.svg'
+import iconright from '../../assets/right-arrow.svg'
 
 class Footer extends React.Component{
   constructor(props){
@@ -25,8 +26,8 @@ class Footer extends React.Component{
             </div>
             <div className='footer__details__list__two'>
               <ul>
-                <li>Goto Forest</li>
-                <li>Request Demo</li>
+                <li>Goto Forest <img src={iconright} alt="right" className="footer__details__list__rightarrow"/></li>
+                <li>Request Demo <img src={iconright} alt="right" className="footer__details__list__rightarrow"/></li>
               </ul>
             </div>
           </div>

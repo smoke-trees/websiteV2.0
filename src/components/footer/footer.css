@@ -34,6 +34,11 @@
   list-style-type: none;
 }
 
+.footer__details__list__rightarrow{
+  width: 20px;
+  margin:0 0 0 1rem ;
+}
+
 .footer__social{
   margin-top: 100px;
   display: flex;
