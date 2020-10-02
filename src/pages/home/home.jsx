@@ -25,7 +25,7 @@ class Home extends React.Component {
               </a>
           </div>
         </div>
-        <div className='services'>
+        {/* <div className='services'>
           <div className='services__header'>
             Services <br></br>we offer.
           </div>
@@ -47,8 +47,8 @@ class Home extends React.Component {
               </a>
             </div>
           </div>
-        </div>
-        <div className='about'>
+        </div> */}
+        {/* <div className='about'>
           <div className='about__description'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a. 
           </div>
@@ -60,7 +60,7 @@ class Home extends React.Component {
               </a>
           </div>
         </div>
-        <Footer />
+        <Footer /> */}
       </>
     )
   }

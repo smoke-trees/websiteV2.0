@@ -32,36 +32,48 @@
 }
 
 
-@media (max-width:1040px){
+@media (max-width:1240px){
   .card__textholder__description{
     display: none;
   }
   .card__textholder__heading{
     font-size: 32px;
+    margin: 0;
   }
   .card{
-    width:400px
+    width:370px;
   }
 }
-@media (max-width:800px){
-  .card__textholder__description{
-    display: none;
+
+@media(max-width:1040px){
+  .card{
+    width: 300px;
+  }
+  .card__textholder{
+    padding: 10px;
   }
   .card__textholder__heading{
-    font-size: 32px;
-  }
-  .card{
-    width:450px
+    font-size: 24px;
   }
 }
-@media (max-width:400px){
-  .card__textholder__description{
-    display: none;
+
+@media(max-width:780px){
+  .card{
+    width: 230px;
   }
   .card__textholder__heading{
-    font-size: 32px;
+    font-size: 16px;
   }
+}
+
+@media(max-width:600px){
   .card{
-    width:350px
+    width: 350px;
+  }
+}
+
+@media(max-width:350px){
+  .card{
+    width:100%;
   }
 }
