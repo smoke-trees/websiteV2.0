@@ -27,11 +27,13 @@
 .footer__details__list__two{
   font-weight: 600;
   font-size: 36px;
+  width: 340px;
 }
 
 .footer__details__list__two ul li{
   padding-bottom: 20px;
   list-style-type: none;
+  float: right;
 }
 
 .footer__details__list__rightarrow{
@@ -68,64 +70,66 @@ ul{
   padding-left: 0;
 }
 
-@media (max-width:1040px){
-  .footer{
-    width:1040px
-  }
-  
+@media(max-width: 1240px){
   .footer__details{
-    width:900px
+    width: 824px;
+  }
+  .footer__details__list__two ul li{
+    font-size: 25px;
   }
 }
-@media (max-width:800px){
-  .footer{
-    width:800px
-  }
-  
+
+@media(max-width: 1040px){
   .footer__details{
-    width:700px
-  }
-  .footer__details__list__one{
-    font-weight: bold;
-    font-size: 20px;
+    width: 668px;
   }
 }
-@media (max-width:600px){
-  .footer{
-    width:600px
-  }
+
+@media(max-width: 780px){
   .footer__details{
-    width:500px;
+    width: 500px;
   }
-  .footer__details__list__one{
-    font-weight: bold;
-    font-size: 18px;
+  .footer__details__list__two ul li{
+    font-size: 17.49px;
   }
   .footer__details__list__two{
-    font-size:24px ;
+    width: 250px;
   }
-  .footer__social__copy{
+}
+
+@media(max-width: 600px){
+  .footer{
+    padding: 100px 0;
+  }
+  .footer__details{
+    width: 350px;
+  }
+  .footer__details__list__one ul li{
     font-size: 12px;
-    font-weight: 600;
+    padding-bottom: 10px;
   }
-}
-@media (max-width:400px){
-  .footer{
-    width:400px
+  .footer__details__list__two ul li{
+   font-size: 14px;
+   padding-bottom: 10px;
   }
-  .footer__details{
-    width:300px;
-  }
-  .footer__details__list__one{
-    font-weight: bold;
-    font-size: 16px;
-  }
-  .footer__details__list__two{
-    font-size:18px ;
+  .footer__details__list__rightarrow{
+    width: 14px;
   }
   .footer__social__copy{
-    font-size: 10px;
-    font-weight: 600;
-    margin-left: 2rem;
+    text-align: left;
+  }
+  .footer__social{
+    margin-top: 50px;
+    flex-direction: column-reverse;
+  }
+  .footer__social__icons--style{
+    padding: 0 5px;
+    width: 14px;
+  }
+}
+
+@media(max-width: 350px){
+  .footer__details{
+    width: 90%;
   }
 }

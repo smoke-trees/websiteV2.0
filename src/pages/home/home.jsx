@@ -25,7 +25,7 @@ class Home extends React.Component {
               </a>
           </div>
         </div>
-        {/* <div className='services'>
+        <div className='services'>
           <div className='services__header'>
             Services <br></br>we offer.
           </div>
@@ -35,20 +35,21 @@ class Home extends React.Component {
             </div>
             <div className="viewmore__link">
               <ul className="services__info__list">
-                <li>UI/UX Design</li>
-                <li>Branding</li>
+                <li>Product Design</li>
+                <li>User Interface</li>
+                <li>User Experience Design</li>
                 <li>Website Development</li>
                 <li>App Development</li>
                 <li>DevOps</li>
               </ul>
               <a href="#" className="services__info__know-more">
-                Know More
+                <div>Know More</div>
                 <img src={iconright} alt="right" className="services__info__knowmore__rightarrow"/>
               </a>
             </div>
           </div>
-        </div> */}
-        {/* <div className='about'>
+        </div>
+        <div className='about'>
           <div className='about__description'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a. 
           </div>
@@ -60,7 +61,7 @@ class Home extends React.Component {
               </a>
           </div>
         </div>
-        <Footer /> */}
+        <Footer />
       </>
     )
   }
