@@ -4,6 +4,7 @@ import Grid from '../../components/grid/grid'
 import Footer from '../../components/footer/footer'
 import iconright from '../../assets/right-arrow.svg'
 import iconrightblack from '../../assets/right-arrow-black.svg'
+import Header from '../../components/header/header'
 
 class Home extends React.Component {
   constructor(props){
@@ -12,6 +13,7 @@ class Home extends React.Component {
   render () {
     return (
       <>
+        <Header />
         <div className='home'>
           <div className='home__header'>
             Scelerisque eleifend <br></br>nisi gravida suscipit.
