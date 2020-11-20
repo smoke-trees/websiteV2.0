@@ -1,0 +1,22 @@
+.team__card__image{
+  width: 360px;
+  height: 360px;
+  background-color: aqua;
+}
+
+.team__card__details{
+  padding: 20px
+}
+
+.team__card__name{
+  font-size: 26px;
+  font-weight: bold;
+  color: var(--dark);
+  margin-bottom: 11px;
+}
+
+.team__card__category{
+  font-size: 20px;
+  color: #848484;
+  font-weight: 500;
+}
