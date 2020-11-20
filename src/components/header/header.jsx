@@ -1,19 +1,71 @@
-import React from 'react'
-import Logo from '../../assets/logo.svg'
-import Hamburger from '../../assets/hamburger.svg'
-import './header.css'
+import React from "react";
+import Logo from "../../assets/logo.svg";
+import "./header.css";
+import Logo_white from "../../assets/logo-white.svg"
+import Right_arrow from "../../assets/right-arrow.svg"
 
-class Header extends React.Component{
-  render(){
-    return(
-      <div className='header'>
-        <div className='header__inner'>
-          <img src={Logo} alt='logo'/>
-          <img src={Hamburger} alt='hamburger'/>
+class Header extends React.Component {
+  navActive() {
+    var header = document.querySelector(".header");
+    var header_reveal = document.querySelector(".header__reveal");
+    var header__reveal__container = document.querySelector(".header__reveal__container");
+    var hamburger = document.querySelector(".hamburger");
+    var logo = document.querySelector('#logo')
+    if (header_reveal.style.height === "100vh") {
+      header.style.background = "white";
+      header_reveal.style.height = 0;
+      header_reveal.classList.remove("active");
+      hamburger.classList.remove("open");
+      logo.classList.remove("white");
+      setTimeout(() => {
+      header__reveal__container.style.display = "none";
+      logo.setAttribute("src", Logo)  
+    }, 200);
+    } else {
+      header.style.background = "black";
+      header_reveal.style.height = "100vh";
+      header_reveal.classList.add("active");
+      hamburger.classList.add("open");
+      logo.classList.add("white");
+      setTimeout(() => {
+        header__reveal__container.style.display = "flex";
+        logo.setAttribute("src", Logo_white)
+      }, 150);
+      
+    }
+  }
+  
+  render() {
+    return (
+      <div className="header">
+        <div className="header__inner">
+          <img src={Logo} alt="logo" id="logo"/>
+          <div className="hamburger" onClick={this.navActive.bind(this)}>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div className="header__reveal">
+          <div className="header__reveal__container">
+            <div className="header__reveal__container__navlinks">
+              <div className="navlink" id="about"><a href="">About</a></div>
+              <div className="navlink" id="services"><a href="">Services</a></div>
+              <div className="navlink" id="projects"><a href="">Projects</a></div>
+              <div className="navlink" id="blogs"><a href="">Blogs</a></div>
+              <div className="navlink" id="github"><a href="">Github</a></div>
+              <div className="navlink" id="clients"><a href="">Clients</a></div>
+            </div>
+            <div className="header__reveal__container__otherinfo">
+              <div className="header__reveal__container__otherinfo__para">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a. In massa lacinia vulputate in tempus. Diam, ullamcorper in enim sed dictum sapien id maecenas. Ut lorem nisl enim, arcu elit mattis convallis mattis nunc. Platea tortor, urna, sed lorem. In ut dolor nunc scelerisque.</div>
+              <div className="header__reveal__container__otherinfo__link"><a href="">Goto Forest <img src={Right_arrow} alt=""/></a></div>
+              <div className="header__reveal__container__otherinfo__link"><a href="">Request Demo <img src={Right_arrow} alt=""/></a></div>
+            </div>
+          </div>
         </div>
       </div>
-    )
+    );
   }
 }
 
-export default Header
+export default Header;
