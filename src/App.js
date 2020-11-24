@@ -7,7 +7,7 @@ import Team from './pages/team/team'
 function App() {
   return (
     <div className="App">
-      <Team />
+      <Home />
     </div>
   );
 }
