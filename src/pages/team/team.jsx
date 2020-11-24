@@ -2,6 +2,10 @@ import React from 'react'
 import Header from '../../components/header/header'
 import TeamCard from '../../components/teamCard/teamCard'
 import './team.css'
+import image1 from '../../test_pics/1.png'
+import image2 from '../../test_pics/2.png'
+import image3 from '../../test_pics/3.png'
+import image4 from '../../test_pics/4.png'
 
 class Team extends React.Component{
   render(){
@@ -26,10 +30,11 @@ class Team extends React.Component{
               </div>
             </div>
             <div className='team__size__pic'>
-              <TeamCard />
-              <TeamCard />
-              <TeamCard />
-              <TeamCard />
+              <TeamCard image={image1}/>
+              <TeamCard image={image2}/>
+              <TeamCard image={image3}/>
+              <TeamCard image={image4}/>
+              <TeamCard image={image1}/>
             </div>
           </div>
         </div>
