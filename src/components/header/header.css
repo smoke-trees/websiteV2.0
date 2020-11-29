@@ -49,19 +49,19 @@
 .hamburger span:nth-child(1) {
   top: 0px;
   width: 48px;
-  border: 1.5px solid black;
+  height: 3px;
 }
 
 .hamburger span:nth-child(2) {
   top: 10px;
   width: 36px;
-  border: 1px solid black;
+  height: 2px;
 }
 
 .hamburger span:nth-child(3) {
   top: 20px;
   width: 24px;
-  border: 0.5px solid black;
+  height: 1px;
 }
 
 .hamburger.open span:nth-child(1) {
@@ -72,6 +72,8 @@
   -moz-transform: rotate(135deg);
   -o-transform: rotate(135deg);
   transform: rotate(135deg);
+  width: 32.5px;
+  height: 5px;
 }
 
 .hamburger.open span:nth-child(2) {
@@ -90,6 +92,8 @@
   -moz-transform: rotate(-135deg);
   -o-transform: rotate(-135deg);
   transform: rotate(-135deg);
+  width: 32.5px;
+  height: 5px;
 }
 
 .header__reveal {

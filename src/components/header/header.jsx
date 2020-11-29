@@ -12,7 +12,7 @@ class Header extends React.Component {
     var hamburger = document.querySelector(".hamburger");
     var logo = document.querySelector('#logo')
     if (header_reveal.style.height === "100vh") {
-      header.style.background = "white";
+      header.style.background = "transparent";
       header_reveal.style.height = 0;
       header_reveal.classList.remove("active");
       hamburger.classList.remove("open");
