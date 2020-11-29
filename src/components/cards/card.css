@@ -1,7 +1,7 @@
 .card{
   display: block;
   width: 450px;
-  border-radius: 8px;
+  height: fit-content;
 }
 
 .card__imageholder{
@@ -21,7 +21,7 @@
 .card__textholder__heading{
   font-weight: bold;
   font-size: 28px;
-  margin-bottom: 20px;
+  margin-bottom: 16px;
 }
 
 .card__textholder__description{

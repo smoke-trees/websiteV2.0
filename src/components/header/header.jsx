@@ -22,7 +22,7 @@ class Header extends React.Component {
       logo.setAttribute("src", Logo)  
     }, 200);
     } else {
-      header.style.background = "black";
+      header.style.background = "#1c1c1c";
       header_reveal.style.height = "100vh";
       header_reveal.classList.add("active");
       hamburger.classList.add("open");
