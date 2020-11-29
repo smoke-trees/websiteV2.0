@@ -1,0 +1,40 @@
+.team__hero{
+  background-color: #CAF1FF;
+  height: calc(100vh - 320px);
+  padding-top: 320px;
+}
+
+.width{
+  width: 1040px;
+  margin: auto;
+}
+
+.team__hero__header{
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 100%;
+}
+
+.team__hero__description{
+  width: 884px;
+  margin-top: 48px;
+  font-size: 28px;
+}
+
+.team__size{
+  padding: 200px 0;
+}
+
+.team__size__header{
+  font-weight: bold;
+  font-size: 72px;
+  margin-bottom: 100px;
+}
+
+.team__size__pic{
+  width: 1440px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 150px;
+}
