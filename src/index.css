@@ -10,3 +10,7 @@ body {
   --dark: #1c1c1c;
   --yellow: #FAFF00;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}

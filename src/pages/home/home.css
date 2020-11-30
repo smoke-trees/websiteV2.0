@@ -4,6 +4,19 @@
   margin: auto;
 }
 
+.circles{
+  width: 114.54px;
+  position: absolute;
+  top: 700px;
+  right: 50px;
+}
+
+.squarecircle{
+  width: 115px;
+  position: absolute;
+  top: 700px;
+}
+
 .home__header{
   font-weight: bold;
   font-size: 72px;

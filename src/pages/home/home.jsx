@@ -5,6 +5,8 @@ import Footer from '../../components/footer/footer'
 import iconright from '../../assets/right-arrow.svg'
 import iconrightblack from '../../assets/right-arrow-black.svg'
 import Header from '../../components/header/header'
+import Circles from '../../assets/circles.svg'
+import SquareCircle from '../../assets/squarecircle.svg'
 
 class Home extends React.Component {
   constructor(props){
@@ -14,6 +16,12 @@ class Home extends React.Component {
     return (
       <>
         <Header />
+        <div className='squarecircle'>
+          <img src={SquareCircle} />
+        </div>
+        <div className='circles'>
+          <img src={Circles} />
+        </div>
         <div className='home'>
           <div className='home__header'>
             Scelerisque eleifend <br></br>nisi gravida suscipit.
