@@ -200,3 +200,24 @@
     align-items: unset;
   }
 }
+
+@media(max-width: 1240px){
+  .header__inner{
+    width: 950px;
+  }
+}
+
+@media(max-width: 1040px){
+  .header__inner{
+    width: 775px;
+  }
+}
+
+@media(max-width: 780px){
+  .header__inner{
+    width: 80%;
+  }
+  .header__inner img{
+    width: 32px;
+  }
+}
