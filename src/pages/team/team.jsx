@@ -6,6 +6,7 @@ import image1 from '../../test_pics/1.png'
 import image2 from '../../test_pics/2.png'
 import image3 from '../../test_pics/3.png'
 import image4 from '../../test_pics/4.png'
+import Footer from '../../components/footer/footer'
 
 class Team extends React.Component{
   render(){
@@ -23,7 +24,7 @@ class Team extends React.Component{
               </div>
             </div>
           </div>
-          {/* <div className='team__size'>
+          <div className='team__size'>
             <div className='width'>
               <div className='team__size__header'>
                 Team
@@ -36,8 +37,9 @@ class Team extends React.Component{
               <TeamCard image={image4}/>
               <TeamCard image={image1}/>
             </div>
-          </div> */}
+          </div>
         </div>
+        <Footer />
       </>
     )
   }

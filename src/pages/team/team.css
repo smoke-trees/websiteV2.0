@@ -76,6 +76,9 @@
   .width{
     width: 668px;
   }
+  .team__size__pic{
+    width: 668px;
+  }
 }
 
 @media(max-width: 780px){
@@ -87,6 +90,9 @@
     font-size: 17.49px;
   }
   .width{
+    width: 500px;
+  }
+  .team__size__pic{
     width: 500px;
   }
 }
@@ -105,6 +111,9 @@
   .width{
     width: 350px;
   }
+  .team__size__pic{
+    width: 350px;
+  }
 }
 
 @media(max-width: 350px){
@@ -119,6 +128,9 @@
     font-size: 14px;
   }
   .width{
+    width: 90%;
+  }
+  .team__size__pic{
     width: 90%;
   }
 }
