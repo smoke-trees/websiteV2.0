@@ -10,7 +10,7 @@
   }
 
   .container{
-    padding: 200px 0;
+    padding-bottom: 200px;
   }
   
   .projects__hero__header{
@@ -47,6 +47,7 @@
   @media(max-width: 1240px){
     .projects__hero{
       padding-top: 300px;
+      height: calc(100vh - 300px);
     }
     .projects__hero__header, .projects__size__header{
       font-size: 60px;
@@ -63,6 +64,7 @@
   @media(max-width: 1040px){
     .projects__hero{
       padding-top: 280px;
+      height: calc(100vh - 280px);
     }
     .projects__hero__header, .projects__size__header{
       font-size: 52px;
@@ -92,6 +94,7 @@
   @media(max-width: 600px){
     .projects__hero{
       padding-top: 200px;
+      height: calc(100vh - 200px);
     }
     .projects__hero__header, .projects__size__header{
       font-size: 32px;
@@ -111,6 +114,7 @@
   @media(max-width: 350px){
     .projects__hero{
       padding-top: 200px;
+      height: calc(100vh - 200px);
     }
     .projects__hero__header, .projects__size__header{
       font-size: 32px;
@@ -123,6 +127,6 @@
       width: 90%;
     }
     .container{
-      padding: 100px 0;
+      padding-bottom: 100px;
     }
   }
