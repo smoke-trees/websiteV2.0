@@ -19,3 +19,14 @@
   color: #848484;
   font-weight: 500;
 }
+
+@media(max-width: 1440px){
+  .team__card__image{
+    width: 260px;
+    height: 260px;
+  }
+  .team__card__image img{
+    width: 260px;
+    height: 260px;
+  }
+}

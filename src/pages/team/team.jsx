@@ -23,7 +23,7 @@ class Team extends React.Component{
               </div>
             </div>
           </div>
-          <div className='team__size'>
+          {/* <div className='team__size'>
             <div className='width'>
               <div className='team__size__header'>
                 Team
@@ -36,7 +36,7 @@ class Team extends React.Component{
               <TeamCard image={image4}/>
               <TeamCard image={image1}/>
             </div>
-          </div>
+          </div> */}
         </div>
       </>
     )
