@@ -6,10 +6,16 @@
 
 .card__imageholder{
   width: 100%;
+  overflow: hidden;
 }
 
 .card__imageholder img{
   width: inherit;
+  transition: 0.5s all ease-in-out; 
+}
+
+.card:hover img{
+  transform: scale(1.5);
 }
 
 .card__textholder{

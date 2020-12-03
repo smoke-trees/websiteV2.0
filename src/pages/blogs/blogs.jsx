@@ -13,7 +13,7 @@ class Blogs extends React.Component{
           <div className='blogs__hero'>
             <div className='width'>
               <div className='blogs__hero__header'>
-                blogs
+                Blogs
               </div>
               <div className='blogs__hero__description'>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus a commodo lacus semper scelerisque. Venenatis parturient gravida dis sit in viverra risus. Tellus ac ipsum sit eros blandit.
