@@ -5,8 +5,8 @@ import Home from './pages/home/home'
 import Team from './pages/team/team'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Header from './components/header/header'
-import Projects from './pages/projects/projects';
-
+import Projects from './pages/projects/projects'
+import Blogs from './pages/blogs/blogs'
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <Route path='/' exact component={Home}/>
       <Route path='/about' component={Team}/>
       <Route path='/projects' component={Projects} />
+      <Route path='/blogs' component={Blogs} />
     </Router>
   );
 }

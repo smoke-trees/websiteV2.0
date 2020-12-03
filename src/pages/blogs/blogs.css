@@ -1,4 +1,4 @@
-.projects__hero{
+.blogs__hero{
     background-color: #FCFF6A;
     height: calc(100vh - 320px);
     padding-top: 320px;
@@ -13,29 +13,29 @@
     padding: 200px 0;
   }
   
-  .projects__hero__header{
+  .blogs__hero__header{
     font-weight: bold;
     font-size: 72px;
     line-height: 100%;
   }
   
-  .projects__hero__description{
+  .blogs__hero__description{
     width: 884px;
     margin-top: 48px;
     font-size: 28px;
   }
   
-  .projects__size{
+  .blogs__size{
     padding: 200px 0;
   }
   
-  .projects__size__header{
+  .blogs__size__header{
     font-weight: bold;
     font-size: 72px;
     margin-bottom: 100px;
   }
   
-  .projects__size__pic{
+  .blogs__size__pic{
     width: 1440px;
     margin: auto;
     display: flex;
@@ -45,14 +45,14 @@
   
   
   @media(max-width: 1240px){
-    .projects__hero{
+    .blogs__hero{
       padding-top: 300px;
       height: calc(100vh - 300px);
     }
-    .projects__hero__header, .projects__size__header{
+    .blogs__hero__header, .blogs__size__header{
       font-size: 60px;
     }
-    .projects__hero__description{
+    .blogs__hero__description{
       width: 824px;
       font-size: 23.33px;
     }
@@ -62,14 +62,14 @@
   }
   
   @media(max-width: 1040px){
-    .projects__hero{
+    .blogs__hero{
       padding-top: 280px;
       height: calc(100vh - 280px);
     }
-    .projects__hero__header, .projects__size__header{
+    .blogs__hero__header, .blogs__size__header{
       font-size: 52px;
     }
-    .projects__hero__description{
+    .blogs__hero__description{
       width: 668px;
       font-size: 23.33px;
     }
@@ -79,10 +79,10 @@
   }
   
   @media(max-width: 780px){
-    .projects__hero__header, .projects__size__header{
+    .blogs__hero__header, .blogs__size__header{
       font-size: 40px;
     }
-    .projects__hero__description{
+    .blogs__hero__description{
       width: 500px;
       font-size: 17.49px;
     }
@@ -92,14 +92,14 @@
   }
   
   @media(max-width: 600px){
-    .projects__hero{
+    .blogs__hero{
       padding-top: 200px;
       height: calc(100vh - 200px);
     }
-    .projects__hero__header, .projects__size__header{
+    .blogs__hero__header, .blogs__size__header{
       font-size: 32px;
     }
-    .projects__hero__description{
+    .blogs__hero__description{
       width: 350px;
       font-size: 14px;
     }
@@ -112,14 +112,14 @@
   }
   
   @media(max-width: 350px){
-    .projects__hero{
+    .blogs__hero{
       padding-top: 200px;
       height: calc(100vh - 200px);
     }
-    .projects__hero__header, .projects__size__header{
+    .blogs__hero__header, .blogs__size__header{
       font-size: 32px;
     }
-    .projects__hero__description{
+    .blogs__hero__description{
       width: 90%;
       font-size: 14px;
     }
