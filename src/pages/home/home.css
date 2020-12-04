@@ -17,10 +17,18 @@
   top: 700px;
 }
 
+
+@media(max-width: 1600px){
+  .circles{
+    display: none;
+  }
+  .squarecircle{
+    display: none;
+  }
+}
 .home__header{
   font-weight: bold;
   font-size: 72px;
-  line-height: 100%;
   margin-bottom: 200px;
 }
 

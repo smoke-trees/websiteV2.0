@@ -7,6 +7,7 @@ import iconrightblack from '../../assets/right-arrow-black.svg'
 import Header from '../../components/header/header'
 import Circles from '../../assets/circles.svg'
 import SquareCircle from '../../assets/squarecircle.svg'
+import Background from '../../assets/background.svg'
 
 class Home extends React.Component {
   constructor(props){
@@ -24,7 +25,7 @@ class Home extends React.Component {
         </div>
         <div className='home'>
           <div className='home__header'>
-            Scelerisque eleifend <br></br>nisi gravida suscipit.
+            We deliver what you ideate. 
           </div>
           <Grid />
           <div className="viewmore__link">
