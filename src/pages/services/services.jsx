@@ -1,27 +1,23 @@
 import React from 'react'
 import Header from '../../components/header/header'
-import './projects.css'
+import './services.css'
 import Footer from '../../components/footer/footer'
-import Grid from '../../components/grid/grid'
 
-class Projects extends React.Component{
+class Services extends React.Component{
   render(){
     return(
       <>
         <Header />
-        <div className='projects'>
-          <div className='projects__hero'>
+        <div className='services-page'>
+          <div className='services__hero'>
             <div className='width'>
-              <div className='projects__hero__header'>
-                Projects
+              <div className='services__hero__header'>
+                Services
               </div>
-              <div className='projects__hero__description'>
+              <div className='services__hero__description'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus a commodo lacus semper scelerisque. Venenatis parturient gravida dis sit in viverra risus. Tellus ac ipsum sit eros blandit.
               </div>
             </div>
-          </div>
-          <div className='container width'>
-            <Grid />
           </div>
         </div>
         <Footer />
@@ -30,4 +26,4 @@ class Projects extends React.Component{
   }
 }
 
-export default Projects
+export default Services

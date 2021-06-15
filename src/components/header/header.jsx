@@ -56,7 +56,7 @@ class Header extends React.Component {
           <div className='header__reveal__container'>
             <div className='header__reveal__container__navlinks'>
               <div className='navlink' id='about'><a href='/about'>About</a></div>
-              <div className='navlink' id='services'><a href=''>Services</a></div>
+              <div className='navlink' id='services'><a href='/services'>Services</a></div>
               <div className='navlink' id='projects'><a href='/projects'>Projects</a></div>
               <div className='navlink' id='blogs'><a href='/blogs'>Blogs</a></div>
               <div className='navlink' id='github'><a href=''>Github</a></div>

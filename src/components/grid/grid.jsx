@@ -5,6 +5,8 @@ import Img from '../../assets/testimg.svg'
 import Img1 from '../../assets/img1.svg'
 import Img2 from '../../assets/im3.svg'
 import Masonry from 'react-masonry-css'
+import MeriBachat from '../../assets/MeriBachat.svg'
+import SmokeCert from '../../assets/SmokeCert.svg'
 
 class Grid extends React.Component{
   constructor(props){
@@ -24,7 +26,7 @@ class Grid extends React.Component{
       className='my-masonry-grid mobile'
       columnClassName='my-masonry-grid_column'
       >
-        <Card img={Img} />
+        <Card img={MeriBachat} heading='MeriBachat' />
         <Card img={Img1} />
         <Card img={Img2} />
       </Masonry>

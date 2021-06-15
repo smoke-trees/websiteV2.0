@@ -8,10 +8,24 @@ import Header from '../../components/header/header'
 import Circles from '../../assets/circles.svg'
 import SquareCircle from '../../assets/squarecircle.svg'
 import Background from '../../assets/background.svg'
+import Masonry from 'react-masonry-css'
+import MeriBachat from '../../assets/MeriBachat.svg'
+import Img1 from '../../assets/img1.svg'
+import Img2 from '../../assets/im3.svg'
+import Card from '../../components/cards/cards'
+import SmokeCert from '../../assets/SmokeCert.svg'
+import Maven from '../../assets/Maven.svg'
 
 class Home extends React.Component {
   constructor(props){
     super(props)
+
+    this.state = {
+      breakpointColsObj: {
+        default: 2,
+        600: 1
+      }
+    }
   }
   render () {
     return (
@@ -27,10 +41,18 @@ class Home extends React.Component {
           <div className='home__header'>
             We deliver what you ideate. 
           </div>
-          <Grid />
+          <Masonry
+            breakpointCols={this.state.breakpointColsObj}
+            className='my-masonry-grid mobile'
+           columnClassName='my-masonry-grid_column'
+          >
+            <Card img={MeriBachat} heading='MeriBachat' />
+            <Card img={SmokeCert} heading='SmokeCert'/>
+            <Card img={Maven} heading='MenovaHq'/>
+          </Masonry>
           <div className="viewmore__link">
               <div><br></br></div>
-              <a href="#" className="projects__viewmore">
+              <a href="/projects" className="projects__viewmore">
                 View More Projects
                 <img src={iconrightblack} alt="right" className="projects__viewmore__rightarrow"/>
               </a>
@@ -42,16 +64,14 @@ class Home extends React.Component {
           </div>
           <div className='services__info'>
             <div className='services__info__description'>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a.
+             We at SmokeTrees Digital provide top-class services, in the friendliest manner, maintaining the highest programming standards.
             </div>
             <div className="viewmore__link">
               <ul className="services__info__list">
                 <li>Product Design</li>
-                <li>User Interface</li>
-                <li>User Experience Design</li>
                 <li>Website Development</li>
                 <li>App Development</li>
-                <li>DevOps</li>
+                <li>Artificial Intelligence</li>
               </ul>
               <a href="#" className="services__info__know-more">
                 <div>Know More</div>

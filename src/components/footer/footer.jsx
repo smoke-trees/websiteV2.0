@@ -44,7 +44,7 @@ class Footer extends React.Component{
               </a>
               </div>
             <div className='footer__social__copy'>
-              SmokeTrees Digital Private Limited
+              SmokeTrees Digital LLP
             </div>
           </div>
         </div>
