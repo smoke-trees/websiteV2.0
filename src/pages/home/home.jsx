@@ -48,7 +48,7 @@ class Home extends React.Component {
           >
             <Card img={MeriBachat} heading='MeriBachat' />
             <Card img={SmokeCert} heading='SmokeCert'/>
-            <Card img={Maven} heading='MenovaHq'/>
+            <Card img={Maven} heading='MenovaHQ'/>
           </Masonry>
           <div className="viewmore__link">
               <div><br></br></div>
@@ -68,10 +68,9 @@ class Home extends React.Component {
             </div>
             <div className="viewmore__link">
               <ul className="services__info__list">
-                <li>Product Design</li>
-                <li>Website Development</li>
-                <li>App Development</li>
-                <li>Artificial Intelligence</li>
+                <li>Branding</li>
+                <li>Expirience and Interaction</li>
+                <li>Technology</li>
               </ul>
               <a href="#" className="services__info__know-more">
                 <div>Know More</div>

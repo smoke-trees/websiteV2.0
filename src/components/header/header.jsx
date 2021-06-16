@@ -59,7 +59,6 @@ class Header extends React.Component {
               <div className='navlink' id='services'><a href='/services'>Services</a></div>
               <div className='navlink' id='projects'><a href='/projects'>Projects</a></div>
               <div className='navlink' id='blogs'><a href='/blogs'>Blogs</a></div>
-              <div className='navlink' id='github'><a href=''>Github</a></div>
               <div className='navlink' id='clients'><a href=''>Clients</a></div>
             </div>
             {/* <Switch>

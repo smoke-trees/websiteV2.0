@@ -7,7 +7,6 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 import Header from './components/header/header'
 import Projects from './pages/projects/projects'
 import Blogs from './pages/blogs/blogs'
-import DescriptionProject from './pages/descriptionProject/descriptionProject';
 import Services from './pages/services/services'
 
 function App() {
@@ -17,7 +16,6 @@ function App() {
       <Route path='/about' component={Team}/>
       <Route path='/projects' component={Projects} />
       <Route path='/blogs' component={Blogs} />
-      <Route path='/project/description' component={DescriptionProject} />
       <Route path='/services' component={Services} />
     </Router>
   );

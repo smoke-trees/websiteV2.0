@@ -13,10 +13,10 @@ class TeamCard extends React.Component{
         </div>
         <div className='team__card__details'>
           <div className='team__card__name'>
-            Namaewa
+            {this.props.name}
           </div>
           <div className='team__card__category'>
-            UI/UX Design
+            {this.props.role}
           </div>
         </div>
       </div>

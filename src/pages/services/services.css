@@ -17,4 +17,97 @@
 	width: 884px;
 	margin-top: 48px;
 	font-size: 28px;
+	color: #848484;
 }
+
+.services-list {
+	padding-bottom: 200px;
+}
+
+.service-1 {
+	padding-bottom: 100px;
+}
+
+.service-header {
+	font-size:72px;
+	font-weight: bold;
+}
+
+.service-description {
+	padding-top: 25px;
+	font-size: 28px;
+	color: #848484;
+	width: 884px;
+}
+
+@media(max-width: 1240px){
+    .width{
+      width: 864px;
+    }
+	.services-page{
+		padding-top: 300px;
+	}
+
+	.service-header {
+		font-size: 60px;
+	}
+	.service-description {
+		width: 824px;
+      font-size: 23.33px;
+	}
+  }
+  
+  @media(max-width: 1040px){
+    .width{
+      width: 668px;
+    }
+	.services-page {
+		padding-top: 280px;
+	}
+	.service-header {
+		font-size: 52px;
+	}
+	.service-description {
+		width: 668px;
+      font-size: 23.33px;
+	}
+  }
+  
+  @media(max-width: 780px){
+    .width{
+      width: 500px;
+    }
+	.service-header {
+		font-size: 40px
+	}
+	.service-description {
+		width: 500px;
+      font-size: 17.49px;
+	}
+  }
+  
+  @media(max-width: 600px){
+    .width{
+      width: 350px;
+    }
+	.service-header {
+		font-size: 32px;
+	}
+	.services-page {
+		padding-top: 200px;
+	}
+	.service-description {
+		width: 350px;
+      font-size: 14px;
+	}
+  }
+  
+  @media(max-width: 350px){
+    .width{
+      width: 90%;
+    }
+	.service-description {
+		width: 90%;
+      font-size: 14px;
+	}
+  }

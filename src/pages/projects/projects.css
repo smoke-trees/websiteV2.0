@@ -7,7 +7,7 @@
     margin: auto;
   }
 
-  .container{
+  .project-container{
     padding: 200px 0;
   }
   
@@ -21,6 +21,7 @@
     width: 884px;
     margin-top: 48px;
     font-size: 28px;
+    color: #848484;
   }
   
   .projects__size{
@@ -40,12 +41,37 @@
     flex-wrap: wrap;
     row-gap: 150px;
   }
+
+  .space{
+    margin-top: 200px;
+  }
+  .more-1 {
+    padding-top: 100px;
+  }
+  .more-1-heading {
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+    gap: 30px;
+  }
   
+  .more-1-heading span{
+    font-size: 16px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-content: center;
+  }
+
+  .more-1-description {
+    padding-top: 20px;
+    width: 600px;
+    color: #848484;
+  }
   
   @media(max-width: 1240px){
     .projects__hero{
       padding-top: 300px;
-      height: calc(100vh - 300px);
     }
     .projects__hero__header, .projects__size__header{
       font-size: 60px;
@@ -62,7 +88,6 @@
   @media(max-width: 1040px){
     .projects__hero{
       padding-top: 280px;
-      height: calc(100vh - 280px);
     }
     .projects__hero__header, .projects__size__header{
       font-size: 52px;
@@ -73,6 +98,9 @@
     }
     .width{
       width: 668px;
+    }
+    .more-1-description {
+      width: 500px;
     }
   }
   
@@ -87,12 +115,14 @@
     .width{
       width: 500px;
     }
+    .more-1-description {
+      width: 100%;
+    }
   }
   
   @media(max-width: 600px){
     .projects__hero{
       padding-top: 200px;
-      height: calc(100vh - 200px);
     }
     .projects__hero__header, .projects__size__header{
       font-size: 32px;
@@ -104,15 +134,14 @@
     .width{
       width: 350px;
     }
-    .container{
-      padding: 150px;
+    .project-container{
+      padding: 150px 0;
     }
   }
   
   @media(max-width: 350px){
     .projects__hero{
       padding-top: 200px;
-      height: calc(100vh - 200px);
     }
     .projects__hero__header, .projects__size__header{
       font-size: 32px;
@@ -124,7 +153,7 @@
     .width{
       width: 90%;
     }
-    .container{
+    .project-container{
       padding: 100px 0;
     }
   }

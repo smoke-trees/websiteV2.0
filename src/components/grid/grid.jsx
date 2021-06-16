@@ -7,6 +7,9 @@ import Img2 from '../../assets/im3.svg'
 import Masonry from 'react-masonry-css'
 import MeriBachat from '../../assets/MeriBachat.svg'
 import SmokeCert from '../../assets/SmokeCert.svg'
+import Maven from '../../assets/Maven.svg'
+import KidsCur from '../../assets/KidsCur.svg'
+import Terran from '../../assets/Terran.svg'
 
 class Grid extends React.Component{
   constructor(props){
@@ -27,8 +30,10 @@ class Grid extends React.Component{
       columnClassName='my-masonry-grid_column'
       >
         <Card img={MeriBachat} heading='MeriBachat' />
-        <Card img={Img1} />
-        <Card img={Img2} />
+        <Card img={SmokeCert} heading='SmokeCert'/>
+        <Card img={Maven} heading='MenovaHQ'/>
+        <Card img={KidsCur} heading='KidsCur' />
+        <Card img={Terran} heading='Terran Tidings' />
       </Masonry>
     )
   }
