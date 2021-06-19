@@ -41,21 +41,17 @@
     flex-wrap: wrap;
     row-gap: 150px;
   }
-
-  .space{
-    margin-top: 200px;
-  }
   .more-1 {
     padding-top: 100px;
   }
-  .project-more-1-heading {
+  .more-1-heading {
     display: flex;
     font-size: 28px;
     font-weight: bold;
     gap: 30px;
   }
   
-  .project-more-1-heading span{
+  .more-1-heading span{
     font-size: 16px;
     display: flex;
     justify-content: space-evenly;
@@ -63,7 +59,7 @@
     align-content: center;
   }
 
-  .project-more-1-description {
+  .more-1-description {
     padding-top: 20px;
     width: 600px;
     color: #848484;
@@ -79,12 +75,6 @@
     .projects__hero__description{
       width: 824px;
       font-size: 23.33px;
-    }
-    .project-more-1-heading {
-      font-size: 20px;
-    }
-    .project-more-1-heading span {
-      font-size: 14px;
     }
     .width{
       width: 864px;
@@ -105,7 +95,7 @@
     .width{
       width: 668px;
     }
-    .project-more-1-description {
+    .more-1-description {
       width: 500px;
     }
   }
@@ -121,7 +111,7 @@
     .width{
       width: 500px;
     }
-    .project-more-1-description {
+    .more-1-description {
       width: 100%;
     }
   }

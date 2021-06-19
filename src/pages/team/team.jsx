@@ -8,6 +8,9 @@ import image3 from '../../test_pics/3.png'
 import image4 from '../../test_pics/4.png'
 import Footer from '../../components/footer/footer'
 import Tanmay from '../../assets/Tanmay.png'
+import Pranjal from '../../assets/Pranjal.png'
+import Abhijay from '../../assets/abhijay.png'
+import Anshuman from '../../assets/Anshuman.png'
 
 class Team extends React.Component{
   render(){
@@ -33,9 +36,9 @@ class Team extends React.Component{
             </div>
             <div className='team__size__pic'>
               <TeamCard image={Tanmay} name='Tanmay Thakur' role='Designated Partner'/>
-              <TeamCard image={image2}/>
-              <TeamCard image={image3}/>
-              <TeamCard image={image4}/>
+              <TeamCard image={Pranjal} name='Pranjal Srivastava' role='Designated Partner'/>
+              <TeamCard image={Abhijay} name='Abhijay Kishore' role='Designated Partner'/>
+              <TeamCard image={Anshuman} name='Anshuman Chappolia' role='Designated Partner'/>
             </div>
           </div>
         </div>

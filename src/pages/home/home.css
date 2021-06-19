@@ -9,12 +9,14 @@
   position: absolute;
   top: 700px;
   right: 50px;
+  z-index: 1;
 }
 
 .squarecircle{
   width: 115px;
   position: absolute;
   top: 700px;
+  z-index: 1;
 }
 
 

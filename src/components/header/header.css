@@ -3,6 +3,7 @@
   width: 100%;
   transition: 0.5s;
   background: #ffffff;
+  z-index: 1;
 }
 
 .header__inner {

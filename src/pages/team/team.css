@@ -48,7 +48,6 @@
 @media(max-width: 1240px){
   .team__hero{
     padding-top: 300px;
-    height: calc(100vh - 300px);
   }
   .team__hero__header, .team__size__header{
     font-size: 60px;
@@ -65,7 +64,6 @@
 @media(max-width: 1040px){
   .team__hero{
     padding-top: 280px;
-    height: calc(100vh - 280px);
   }
   .team__hero__header, .team__size__header{
     font-size: 52px;
@@ -101,7 +99,6 @@
 @media(max-width: 600px){
   .team__hero{
     padding-top: 200px;
-    height: calc(100vh - 200px);
   }
   .team__hero__header, .team__size__header{
     font-size: 32px;
@@ -121,7 +118,6 @@
 @media(max-width: 350px){
   .team__hero{
     padding-top: 200px;
-    height: calc(100vh - 320px);
   }
   .team__hero__header, .team__size__header{
     font-size: 32px;
