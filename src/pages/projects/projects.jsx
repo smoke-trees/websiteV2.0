@@ -33,44 +33,54 @@ class Projects extends React.Component{
                 </div>
               </div>
               <div className='more-1'>
+              <a href='https://github.com/smoke-trees/uproar' rel='noopener noreferrer' target='_blank'>
                 <div className='project-more-1-heading'>
                   UPROAR
                 </div>
                 <div className='project-more-1-description'>
                 An application for accumulating all disaster updates in one forum, parsing them and manipulating the data so that only accurate information reaches the people. Features include SOS, mapping, video surveillance and many more. 
                 </div>
+                </a>
               </div>
               <div className='more-1'>
+              <a href='https://github.com/smoke-trees/gesture-drive' rel='noopener noreferrer' target='_blank'>
                 <div className='project-more-1-heading'>
                   GESTURE DRIVE
                 </div>
                 <div className='project-more-1-description'>
                 An autonomous vehicle solution for people who are physically challenged, calibrates limb angle to drive steering wheel and operate pedals. 
                 </div>
+                </a>
               </div>
               <div className='more-1'>
+              <a href='https://github.com/smoke-trees/sparc' rel='noopener noreferrer' target='_blank'>
                 <div className='project-more-1-heading'>
                   SPARC
                 </div>
                 <div className='project-more-1-description'>
                   A Smart Grid solution which compiles home networks and grids in an efficient manner, controlled by recurrent networks which predict distribution and consumption and also supported by an energy credit system. All running as microservices supporting each other. 
                 </div>
+                </a>
               </div>
               <div className='more-1'>
+              <a href='https://github.com/smoke-trees/Voice-synthesis' rel='noopener noreferrer' target='_blank'>
                 <div className='project-more-1-heading'>
                   VOICE SYNTHESIS
                 </div>
                 <div className='project-more-1-description'>
                   An implementation of Transfer Learning from Speaker Verification to Multispeaker Text-To-Speech Synthesis (SV2TTS) with a vocoder that works in real-time. SV2TTS is a three-stage deep learning framework that allows to create a numerical representation of a voice from a few seconds of audio, and to use it to condition text-to speech synthesis.
                 </div>
+                </a>
               </div>
               <div className='more-1'>
+              <a href='https://github.com/smoke-trees/ATLAS-predictors' rel='noopener noreferrer' target='_blank'>
                 <div className='project-more-1-heading'>
                   ATLAS
                 </div>
                 <div className='project-more-1-description'>
                 Total Surveillance for Infiltrators, a defense security solutions suite, sort documents on the fly for malcontent, configure drones for maximum area coverage, send communications via commo hubs, protected by swarm and blockchain. TLDR : Automated Solutions for Counter Insurgency. 
                 </div>
+                </a>
               </div>
             </div>
           </div>

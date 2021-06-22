@@ -29,11 +29,11 @@ class Grid extends React.Component{
       className='my-masonry-grid mobile'
       columnClassName='my-masonry-grid_column'
       >
-        <Card img={MeriBachat} heading='MeriBachat' />
-        <Card img={SmokeCert} heading='SmokeCert'/>
-        <Card img={Maven} heading='MenovaHQ'/>
-        <Card img={KidsCur} heading='KidsCur' />
-        <Card img={Terran} heading='Terran Tidings' />
+        <Card img={MeriBachat} heading='MeriBachat' link='https://meribachat.org'/>
+        <Card img={SmokeCert} heading='SmokeCert' link='none'/>
+        <Card img={Maven} heading='MenovaHQ' link='https://menova.org'/>
+        <Card img={KidsCur} heading='KidsCur' link='none'/>
+        <Card img={Terran} heading='Terran Tidings' link='none'/>
       </Masonry>
     )
   }

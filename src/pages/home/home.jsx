@@ -1,17 +1,13 @@
 import React from 'react'
 import './home.css'
-import Grid from '../../components/grid/grid'
 import Footer from '../../components/footer/footer'
 import iconright from '../../assets/right-arrow.svg'
 import iconrightblack from '../../assets/right-arrow-black.svg'
 import Header from '../../components/header/header'
 import Circles from '../../assets/circles.svg'
 import SquareCircle from '../../assets/squarecircle.svg'
-import Background from '../../assets/background.svg'
 import Masonry from 'react-masonry-css'
 import MeriBachat from '../../assets/MeriBachat.svg'
-import Img1 from '../../assets/img1.svg'
-import Img2 from '../../assets/im3.svg'
 import Card from '../../components/cards/cards'
 import SmokeCert from '../../assets/SmokeCert.svg'
 import Maven from '../../assets/Maven.svg'
@@ -46,9 +42,9 @@ class Home extends React.Component {
             className='my-masonry-grid mobile'
            columnClassName='my-masonry-grid_column'
           >
-            <Card img={MeriBachat} heading='MeriBachat' />
-            <Card img={SmokeCert} heading='SmokeCert'/>
-            <Card img={Maven} heading='MenovaHQ'/>
+            <Card img={MeriBachat} heading='MeriBachat' link='https://meribachat.in/'/>
+            <Card img={SmokeCert} heading='SmokeCert' link='none'/>
+            <Card img={Maven} heading='Menova' link='https://menova.org'/>
           </Masonry>
           <div className="viewmore__link">
               <div><br></br></div>
@@ -82,13 +78,6 @@ class Home extends React.Component {
         <div className='about'>
           <div className='about__description'>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a. 
-          </div>
-          <div className="viewmore__link">
-              <div><br></br></div>
-              <a href="#" className="projects__viewmore">
-                Know More
-                <img src={iconrightblack} alt="right" className="projects__viewmore__rightarrow"/>
-              </a>
           </div>
         </div>
         <Footer />

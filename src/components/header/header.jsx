@@ -67,7 +67,6 @@ class Header extends React.Component {
             </Switch> */}
             <div className='header__reveal__container__otherinfo'>
               <div className='header__reveal__container__otherinfo__para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a. In massa lacinia vulputate in tempus. Diam, ullamcorper in enim sed dictum sapien id maecenas. Ut lorem nisl enim, arcu elit mattis convallis mattis nunc. Platea tortor, urna, sed lorem. In ut dolor nunc scelerisque.</div>
-              <div className='header__reveal__container__otherinfo__link'><a href=''>Goto Forest <img src={Right_arrow} alt=''/></a></div>
               <div className='header__reveal__container__otherinfo__link'><a href=''>Contact Us <img src={Right_arrow} alt=''/></a></div>
             </div>
           </div>
