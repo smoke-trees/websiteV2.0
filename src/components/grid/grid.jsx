@@ -31,9 +31,9 @@ class Grid extends React.Component{
       >
         <Card img={MeriBachat} heading='MeriBachat' link='https://meribachat.org'/>
         <Card img={SmokeCert} heading='SmokeCert' link='none'/>
-        <Card img={Maven} heading='MenovaHQ' link='https://menova.org'/>
+        <Card img={Maven} heading='Menova' link='https://menova.org'/>
         <Card img={KidsCur} heading='KidsCur' link='none'/>
-        <Card img={Terran} heading='Terran Tidings' link='none'/>
+        <Card img={Terran} heading='Terran Tidings' link='https://play.google.com/store/apps/details?id=com.terrantidings.app'/>
       </Masonry>
     )
   }

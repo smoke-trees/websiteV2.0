@@ -24,7 +24,7 @@ class Team extends React.Component{
                 Smoketrees
               </div>
               <div className='team__hero__description'>
-              The driving force behind SmokeTrees is the hard work and talent of its founding members dedicated to bringing the developers' community together. Each of them is extremely skilled in their own fortes and ensure top notch results.
+                The driving force behind SmokeTrees is the hard work and talent of its founding members dedicated to bringing the developers' community together. Each of them is extremely skilled in their own fortes and ensure top notch results.
               </div>
             </div>
           </div>

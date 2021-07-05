@@ -58,7 +58,7 @@ class Header extends React.Component {
               <div className='navlink' id='about'><a href='/about'>About</a></div>
               <div className='navlink' id='services'><a href='/services'>Services</a></div>
               <div className='navlink' id='projects'><a href='/projects'>Projects</a></div>
-              <div className='navlink' id='blogs'><a href='/blogs'>Blogs</a></div>
+              {/* <div className='navlink' id='blogs'><a href='/blogs'>Blogs</a></div> */}
               <div className='navlink' id='clients'><a href='/clients'>Clients</a></div>
             </div>
             {/* <Switch>
@@ -66,8 +66,8 @@ class Header extends React.Component {
               <Route path='/team' component={this.props.team} />
             </Switch> */}
             <div className='header__reveal__container__otherinfo'>
-              <div className='header__reveal__container__otherinfo__para'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a. In massa lacinia vulputate in tempus. Diam, ullamcorper in enim sed dictum sapien id maecenas. Ut lorem nisl enim, arcu elit mattis convallis mattis nunc. Platea tortor, urna, sed lorem. In ut dolor nunc scelerisque.</div>
-              <div className='header__reveal__container__otherinfo__link'><a href=''>Contact Us <img src={Right_arrow} alt=''/></a></div>
+              <div className='header__reveal__container__otherinfo__para'>SmokeTrees was born from an idea to bring the best developers out there onto a single platform to create the ultimate community of coders, who are dedicated to serving the world. We provide top-class services, in the friendliest manner. SmokeTrees is friendly, flexible, versatile and packed with talent <br></br> <br></br> Looking to make your next idea a reality, let us help you, Contact Us at info@smoketrees.in </div>
+              {/* <div className='header__reveal__container__otherinfo__link'><a href=''>Contact Us <img src={Right_arrow} alt=''/></a></div> */}
             </div>
           </div>
         </div>

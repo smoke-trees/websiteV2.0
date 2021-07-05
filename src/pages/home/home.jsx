@@ -65,7 +65,7 @@ class Home extends React.Component {
             <div className="viewmore__link">
               <ul className="services__info__list">
                 <li>Branding</li>
-                <li>Expirience and Interaction</li>
+                <li>Experience and Interaction</li>
                 <li>Technology</li>
               </ul>
               <a href="#" className="services__info__know-more">
@@ -77,8 +77,7 @@ class Home extends React.Component {
         </div>
         <div className='about'>
           <div className='about__description'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a. 
-          </div>
+          SmokeTrees was born from an idea to bring the best developers out there onto a single platform to create the ultimate community of coders, who are dedicated to serving the world. We provide top-class services, in the friendliest manner. SmokeTrees is friendly, flexible, versatile and packed with talent.          </div>
         </div>
         <Footer />
       </>

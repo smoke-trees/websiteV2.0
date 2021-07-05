@@ -30,10 +30,10 @@ class Services extends React.Component{
             </div>
             <div className='service-1'>
               <div className='service-header'>
-                Expirience and Interaction
+                Experience and Interaction
               </div>
               <div className='service-description'>
-                We help you create memorable expiriences for your customers making them comeback to the product everyday. Providing great satisfaction to our client and making the users tick.
+                We help you create memorable experiences for your customers making them comeback to the product everyday. Providing great satisfaction to our client and making the users tick.
               </div>
             </div>
             <div className='service-1'>

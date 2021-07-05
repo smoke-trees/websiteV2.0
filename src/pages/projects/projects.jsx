@@ -25,12 +25,14 @@ class Projects extends React.Component{
             <div className='projects__hero__header space'>Github Projects</div>
             <div className='more'>
               <div className='more-1'>
+              <a href='https://huggingface.co/lordtt13' rel='noopener noreferrer' target='_blank'>
                 <div className='project-more-1-heading'>
                   SCI-BERT <span>HUGGING FACE</span>
                 </div>
                 <div className='project-more-1-description'>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Turpis commodo lacus donec facilisi blandit euismod. Semper diam neque volutpat lorem condimentum luctus senectus ullamcorper interdum. Bibendum imperdiet orci bibendum nunc a. 
+                SmokeTrees members have been quite active in open source conbtributions and Huggingface being a State of the Art NLP library, we feel proud after acceptances of our contributions.
                 </div>
+                </a>
               </div>
               <div className='more-1'>
               <a href='https://github.com/smoke-trees/uproar' rel='noopener noreferrer' target='_blank'>

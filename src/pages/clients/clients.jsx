@@ -16,7 +16,7 @@ class Clients extends React.Component{
                 Clients
               </div>
               <div className='projects__hero__description'>
-              Our projects have been carried out with utmost sincerity and diligence and will continue so. SmokeTrees is friendly, flexible, versatile and packed with talent. If you have an idea you want to bring to life, you have come to the right place.
+              We value our clients, who have given us a chance to work on their ideas and now are reaping the results.
               </div>
             </div>
           </div>

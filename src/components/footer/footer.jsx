@@ -18,15 +18,13 @@ class Footer extends React.Component{
               <ul>
                 <li>About</li>
                 <li>Services</li>
-                <li>Blog</li>
                 <li>Projects</li>
                 <li>Clients</li>
-                <li>Achievements</li>
               </ul>
             </div>
-            <div className='footer__details__list__two'>
+            <div className='footer__details__list__one'>
               <ul>
-                <li>Contact Us<img src={iconright} alt="right" className="footer__details__list__rightarrow"/></li>
+                <li style={{textAlign: 'right'}}>Contact Us <br></br> info@smoketrees.in</li>
               </ul>
             </div>
           </div>
