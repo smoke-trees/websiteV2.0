@@ -1,10 +1,10 @@
-.home{
+.home {
   padding-top: 320px;
   width: 1040px;
   margin: auto;
 }
 
-.circles{
+.circles {
   width: 114.54px;
   position: absolute;
   top: 700px;
@@ -12,60 +12,59 @@
   z-index: 1;
 }
 
-.squarecircle{
+.squarecircle {
   width: 115px;
   position: absolute;
   top: 700px;
   z-index: 1;
 }
 
-
-@media(max-width: 1600px){
-  .circles{
+@media (max-width: 1600px) {
+  .circles {
     display: none;
   }
-  .squarecircle{
+  .squarecircle {
     display: none;
   }
 }
-.home__header{
+.home__header {
   font-weight: bold;
   font-size: 72px;
   margin-bottom: 200px;
 }
 
-.projects__viewmore{
+.projects__viewmore {
   color: #1c1c1c;
   font-weight: 600;
   font-size: 30px;
   margin: 3rem 0 0 0;
   display: inline-block;
-  text-decoration: none; 
+  text-decoration: none;
 }
 
-.projects__viewmore__rightarrow{
+.projects__viewmore__rightarrow {
   width: 20px;
-  margin:0 0 0 1rem ; 
+  margin: 0 0 0 1rem;
 }
 
-.services{
+.services {
   background-color: var(--dark);
   margin-top: 200px;
   padding: 200px 0;
 }
 
-.services >*{
+.services > * {
   width: 1040px;
   margin: auto;
 }
 
-.services__header{
+.services__header {
   color: white;
   font-weight: bold;
   font-size: 72px;
 }
 
-.services__info__description{
+.services__info__description {
   width: 846px;
   color: white;
   margin: 48px 0 0 0;
@@ -73,22 +72,22 @@
   line-height: 130%;
 }
 
-.viewmore__link{
+.viewmore__link {
   display: flex;
   justify-content: space-between;
   margin: 4rem 0 0 12px;
 }
 
-.services__info__list{
+.services__info__list {
   list-style: none;
   color: white;
   font-weight: 700;
   font-size: 20px;
   line-height: 150%;
-  color: #EAEAEA;
+  color: #eaeaea;
 }
 
-.services__info__list li:before{
+.services__info__list li:before {
   content: "\2022";
   color: yellow;
   font-weight: bolder;
@@ -97,8 +96,7 @@
   margin-left: -1rem;
 }
 
-
-.services__info__know-more{
+.services__info__know-more {
   color: white;
   font-weight: 600;
   font-size: 30px;
@@ -109,161 +107,188 @@
   align-items: center;
 }
 
-.services__info__knowmore__rightarrow{
+.services__info__knowmore__rightarrow {
   width: 20px;
-  margin:0 0 0 1rem;
+  margin: 0 0 0 1rem;
 }
 
-.services__info__know-more div{
-  height: -moz-min-content;    /* Firefox */
+.services__info__know-more div {
+  height: -moz-min-content; /* Firefox */
   height: -webkit-min-content; /* Chrome */
   height: min-content;
 }
 
-.about{
+.about {
   padding: 200px 0;
   width: 1040px;
   margin: auto;
 }
 
-.about__description{
+.about__description {
   width: 846px;
   font-size: 28px;
   line-height: 130%;
   color: #848484;
 }
 
-@media (max-width:1240px){
-  .home{
-    width:824px;
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 5px;
+  border-radius: 6px;
+  font-size: 16px;
+  margin-left: 16px;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.25s linear;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+ 
+}
+
+@media (max-width: 1240px) {
+  .home {
+    width: 824px;
     padding-top: 300px;
   }
-  .home__header{
+  .home__header {
     font-size: 60px;
   }
-  .services__header{
+  .services__header {
     font-size: 60px;
     width: 824px;
   }
-  .services__info{
+  .services__info {
     width: 824px;
   }
-  .services__info__description{
+  .services__info__description {
     width: 824px;
     font-size: 23.33px;
   }
-  .services__info__list{
+  .services__info__list {
     font-size: 16.66px;
   }
-  .services__info__know-more div{
+  .services__info__know-more div {
     font-size: 25px;
   }
-  .projects__viewmore{
+  .projects__viewmore {
     font-size: 25px;
   }
-  .about{
+  .about {
     width: 824px;
   }
-  .about__description{
+  .about__description {
     width: 824px;
     font-size: 23.33px;
   }
 }
 
-@media (max-width:1040px){
-  .home{
+@media (max-width: 1040px) {
+  .home {
     width: 668px;
     padding-top: 280px;
   }
-  .home__header{
+  .home__header {
     font-size: 52px;
   }
-  .services__header{
+  .services__header {
     font-size: 60px;
     width: 668px;
   }
-  .services__info{
+  .services__info {
     width: 668px;
   }
-  .services__info__description{
+  .services__info__description {
     width: 668px;
     font-size: 23.33px;
   }
-  .services__info__list{
+  .services__info__list {
     font-size: 16.66px;
   }
-  .services__info__know-more div{
+  .services__info__know-more div {
     font-size: 25px;
   }
-  .about{
+  .about {
     width: 668px;
   }
-  .about__description{
+  .about__description {
     width: 668px;
     font-size: 23.33px;
   }
 }
-@media(max-width:780px){
-  .home{
+@media (max-width: 780px) {
+  .home {
     width: 500px;
   }
-  .home__header{
+  .home__header {
     font-size: 40px;
   }
-  .services__header{
+  .services__header {
     font-size: 40px;
     width: 500px;
   }
-  .services__info{
+  .services__info {
     width: 500px;
   }
-  .services__info__description{
+  .services__info__description {
     width: 500px;
     font-size: 17.49px;
   }
-  .services__info__list{
+  .services__info__list {
     font-size: 17.49px;
   }
-  .services__info__know-more div{
+  .services__info__know-more div {
     font-size: 18.75px;
   }
-  .services__info__knowmore__rightarrow{
+  .services__info__knowmore__rightarrow {
     width: 18.75px;
     height: 18.75px;
   }
-  .about{
+  .about {
     width: 500px;
   }
-  .about__description{
+  .about__description {
     width: 500px;
     font-size: 17.49px;
   }
 }
 
-@media(max-width:600px){
-  .home{
+@media (max-width: 600px) {
+  .home {
     width: 350px;
     padding-top: 200px;
   }
-  .home__header{
+  .home__header {
     font-size: 32px;
   }
-  .services{
+  .services {
     margin-top: 100px;
     padding: 100px 0;
   }
-  .services__header{
+  .services__header {
     font-size: 32px;
     width: 350px;
   }
-  .services__info{
+  .services__info {
     width: 350px;
   }
-  .services__info__description{
+  .services__info__description {
     width: 350px;
     font-size: 14px;
   }
-  .services__info__list{
+  .services__info__list {
     font-size: 14px;
   }
   .services__info__know-more div, .projects__viewmore{
@@ -273,71 +298,71 @@
     width: 14px;
     height: 14px;
   }
-  .viewmore__link{
+  .viewmore__link {
     margin-top: 50px;
     margin-left: 0;
   }
-  .services__info__list li:before{
+  .services__info__list li:before {
     content: none;
   }
-  .about{
+  .about {
     width: 350px;
     padding: 100px 0;
   }
-  .about__description{
+  .about__description {
     width: 350px;
     font-size: 14px;
   }
-  .projects__viewmore{
+  .projects__viewmore {
     margin-top: 0;
   }
 }
 
-@media(max-width:350px){
-  .home{
+@media (max-width: 350px) {
+  .home {
     width: 100%;
   }
-  .home__header{
+  .home__header {
     font-size: 24px;
     width: 90%;
     margin: auto;
   }
-  .services{
+  .services {
     margin-top: 100px;
     padding: 100px 0;
   }
-  .services__header{
+  .services__header {
     font-size: 32px;
     width: 90%;
   }
-  .services__info{
+  .services__info {
     width: 90%;
   }
-  .services__info__description{
+  .services__info__description {
     width: 90%;
     font-size: 14px;
   }
-  .services__info__list{
+  .services__info__list {
     font-size: 14px;
     list-style-type: none;
   }
-  .services__info__know-more{
+  .services__info__know-more {
     margin-top: 50px;
   }
-  .services__info__know-more div{
+  .services__info__know-more div {
     font-size: 14px;
   }
-  .services__info__knowmore__rightarrow{
+  .services__info__knowmore__rightarrow {
     width: 14px;
     height: 14px;
   }
-  .viewmore__link{
+  .viewmore__link {
     display: block;
   }
-  .about{
+  .about {
     width: 90%;
   }
-  .about__description{
+  .about__description {
     width: 100%;
     font-size: 14px;
   }
