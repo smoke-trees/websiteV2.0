@@ -8,6 +8,7 @@ class TeamCard extends React.Component{
   render(){
     return(
       <div className='team__card'>
+        <a href={this.props.link} rel='noopener noreferrer' target='_blank'>
         <div className='team__card__image'>
           <img src={this.props.image} />
         </div>
@@ -19,6 +20,7 @@ class TeamCard extends React.Component{
             {this.props.role}
           </div>
         </div>
+        </a>
       </div>
     )
   }

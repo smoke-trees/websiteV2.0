@@ -35,10 +35,10 @@ class Team extends React.Component{
               </div>
             </div>
             <div className='team__size__pic'>
-              <TeamCard image={Tanmay} name='Tanmay Thakur' role='Designated Partner'/>
-              <TeamCard image={Pranjal} name='Pranjal Srivastava' role='Designated Partner'/>
-              <TeamCard image={Abhijay} name='Abhijay Kishore' role='Designated Partner'/>
-              <TeamCard image={Anshuman} name='Anshuman Chappolia' role='Designated Partner'/>
+              <TeamCard image={Tanmay} name='Tanmay Thakur' role='Designated Partner' link='https://www.linkedin.com/in/tanmay-thakur-6bb5a9154/'/>
+              <TeamCard image={Pranjal} name='Pranjal Srivastava' role='Designated Partner' link='https://www.linkedin.com/in/pranjalsrv/'/>
+              <TeamCard image={Abhijay} name='Abhijay Kishore' role='Designated Partner' link='https://www.linkedin.com/in/abhijay-kishore-a3b0b8152/'/>
+              <TeamCard image={Anshuman} name='Anshuman Chappolia' role='Designated Partner' link='https://www.linkedin.com/in/achhapolia10/'/>
             </div>
           </div>
         </div>
