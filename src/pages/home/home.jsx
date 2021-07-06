@@ -68,7 +68,7 @@ class Home extends React.Component {
                 <li>Experience and Interaction</li>
                 <li>Technology</li>
               </ul>
-              <a href="#" className="services__info__know-more">
+              <a href="/services" className="services__info__know-more">
                 <div>Know More</div>
                 <img src={iconright} alt="right" className="services__info__knowmore__rightarrow"/>
               </a>
