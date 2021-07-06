@@ -43,7 +43,7 @@ class Home extends React.Component {
            columnClassName='my-masonry-grid_column'
           >
             <Card img={MeriBachat} heading='MeriBachat' link='https://meribachat.in/'/>
-            <Card img={SmokeCert} heading='SmokeCert' link='none'/>
+            <Card img={SmokeCert} heading='SmokeCert' link='#'/>
             <Card img={Maven} heading='Menova' link='https://menova.org'/>
           </Masonry>
           <div className="viewmore__link">
