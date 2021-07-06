@@ -266,10 +266,10 @@
   .services__info__list{
     font-size: 14px;
   }
-  .services__info__know-more div{
+  .services__info__know-more div, .projects__viewmore{
     font-size: 14px;
   }
-  .services__info__knowmore__rightarrow{
+  .services__info__knowmore__rightarrow, .projects__viewmore__rightarrow{
     width: 14px;
     height: 14px;
   }
