@@ -25,14 +25,17 @@ class Projects extends React.Component{
             <div className='projects__hero__header space'>Github Projects</div>
             <div className='more'>
               <div className='more-1'>
-              <a href='https://huggingface.co/lordtt13' rel='noopener noreferrer' target='_blank'>
                 <div className='project-more-1-heading'>
-                  SCI-BERT <span>HUGGING FACE</span>
+                  HUGGING FACE
                 </div>
                 <div className='project-more-1-description'>
-                SmokeTrees members have been quite active in open source conbtributions and Huggingface being a State of the Art NLP library, we feel proud after acceptances of our contributions.
+                SmokeTrees members have been quite active in open source conbtributions and Huggingface being a State of the Art NLP library, we feel proud after acceptances of our contributions. <br></br><br></br>
+                <ul style={{listStyleType: 'none'}}>
+                  <li style={{padding: '4px 0'}}><a href='https://huggingface.co/lordtt13' rel='noopener noreferrer' target='_blank' style={{borderBottom: '2px solid #848484'}}>Model Contributions</a></li>
+                  <li style={{padding: '4px 0'}}><a href='https://huggingface.co/datasets/emo' rel='noopener noreferrer' target='_blank' style={{borderBottom: '2px solid #848484'}}>Dataset Contribution</a></li>
+                  <li style={{padding: '4px 0'}}><a href='https://huggingface.co/transformers/master/community.html#community-notebooks' rel='noopener noreferrer' target='_blank' style={{borderBottom: '2px solid #848484'}}>Tutorial Contributions</a></li>
+                </ul>
                 </div>
-                </a>
               </div>
               <div className='more-1'>
               <a href='https://github.com/smoke-trees/uproar' rel='noopener noreferrer' target='_blank'>
